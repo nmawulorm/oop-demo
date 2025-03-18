@@ -5,8 +5,7 @@
 *   Third constructor has first name, last name, account number and balance as parameters
 *
 * Create two instances of the bank account class in a method called test
-* print the account details of each instance
-*
+* print the account details of each instanceIN
 */
 
 
@@ -46,11 +45,12 @@ class BankAccount {
         this.balance = balance;
     }
 
-    void printAccountDetails(){
+    public void printAccountDetails(){                             // Method without a modifier is public by default
         System.out.println("First name: " + firstName);
         System.out.println("Last name: " + lastName);
         System.out.println("Account number: " + accountNumber);
         System.out.println("Balance: $" + balance);
     }
+
 }
 
